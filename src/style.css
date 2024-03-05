@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Chillax';
+  src: url('../src/assets/Chillax-Variable.ttf');
+}
