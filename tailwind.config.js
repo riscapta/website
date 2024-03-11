@@ -5,6 +5,7 @@ export default {
   theme: {
     fontFamily: {
       chillax: ['Chillax'],
+      ibm: ['IBM Plex Sans'],
     },
     extend: {},
   },

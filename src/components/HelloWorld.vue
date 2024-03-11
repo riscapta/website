@@ -15,8 +15,8 @@ import { ref } from 'vue'
             <a href="">Blog</a>
           </div>
           <div class="flex items-center gap-4">
-            <img class="h-7" src="/src/assets/aurora_white.png" alt="logo" />
-            <a class="text-4xl font-chillax font-medium text-white">Aurora</a>
+            <img class="h-7" src="/src/assets/riscapta.png" alt="logo" />
+            <a class="text-4xl font-ibm font-medium text-white">Riscapta</a>
           </div>
           <div class="flex gap-3 items-center bg-white rounded-full px-4 py-2 font-medium cursor-pointer">
             <a class="text-black">Contact Us</a>
@@ -81,10 +81,7 @@ import { ref } from 'vue'
           class="absolute h-24 bg-[#1b1b1b] w-1/4 -top-80 rounded-tr-xl before:absolute before:-right-10 before:bottom-0 before:w-10 before:h-10 before:rounded-full before:shadow-[-20px_20px_0_0] before:shadow-[#1b1b1b]"
         >
           <div class="text-white h-full items-center flex justify-between pr-5">
-            <a class="text-[#C8C8C8]"
-              >It is about creating something<br />
-              bigger than yourself</a
-            >
+            <a class="pr-5 text-[#C8C8C8]">Granting more than a conventional DRP, and in real time.</a>
             <img class="h-12" src="/src/assets/arrow.png" alt="logo" />
           </div>
         </span>
@@ -92,14 +89,14 @@ import { ref } from 'vue'
           class="absolute h-28 bg-[#1b1b1b] w-1/3 -top-56 rounded-tr-xl before:absolute before:-right-10 before:bottom-0 before:w-10 before:h-10 before:rounded-full before:shadow-[-20px_20px_0_0] before:shadow-[#1b1b1b]"
         >
           <div class="text-white h-full items-center flex text-8xl font-medium">
-            <a>Unlocking</a>
+            <a>Enhancing</a>
           </div>
         </span>
         <span
           class="absolute h-28 bg-[#1b1b1b] w-7/12 -top-28 rounded-tr-xl before:absolute before:-right-10 before:bottom-0 before:w-10 before:h-10 before:rounded-full before:shadow-[-20px_20px_0_0] before:shadow-[#1b1b1b]"
         >
           <div class="text-white h-full items-center flex text-8xl font-medium">
-            <a>Digital Excellence</a>
+            <a>Threat Intelligence</a>
           </div>
         </span>
       </div>
