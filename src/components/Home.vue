@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import { RouterLink } from 'vue-router'
 </script>
 
 <template>
@@ -11,23 +12,25 @@ import { ref } from 'vue'
         <div class="flex mx-5 mt-5 justify-between">
           <div class="flex bg-white rounded-full py-2 px-4 gap-6 text-sm text-gray-500">
             <a class="text-violet-600" href="">Home</a>
-            <a href="">Apps</a>
+            <a href="https://drp.riscapta.com/">DRP</a>
             <a href="">Blog</a>
           </div>
           <div class="flex items-center gap-4">
             <img class="h-7" src="/src/assets/riscapta.png" alt="logo" />
             <a class="text-4xl font-ibm font-medium text-white">Riscapta</a>
           </div>
-          <div class="flex gap-3 items-center bg-white rounded-full px-4 py-2 font-medium cursor-pointer">
-            <a class="text-black">Contact Us</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-              <path
-                class="stroke-black stroke-1"
-                fill-rule="evenodd"
-                d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
-              />
-            </svg>
-          </div>
+          <RouterLink to="/contact">
+            <div class="flex gap-3 items-center bg-white rounded-full px-4 py-2 font-medium cursor-pointer">
+              <a class="text-black">Contact Us</a>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                <path
+                  class="stroke-black stroke-1"
+                  fill-rule="evenodd"
+                  d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
+                />
+              </svg>
+            </div>
+          </RouterLink>
         </div>
         <div class="flex right-0 bottom-0 absolute mr-10 mb-10">
           <div class="w-56 h-48 bg-white flex flex-col pl-5 pt-5 pr-1 rounded-3xl rounded-tr-none gap-2">
