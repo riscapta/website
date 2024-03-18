@@ -60,7 +60,7 @@ import { RouterLink } from 'vue-router'
               <a class="text-purple-500 font-medium">About Us</a>
             </div>
             <a class="text-sm text-gray-500"
-              >Our journey began with a shared vision among a group of tech enthusiasts, brought together by the idea of revolutionizing the threat intelligence.</a
+              >Our journey began with a shared vision among a group of tech enthusiasts, brought together by the idea of revolutionizing the digital threat protection landscape.</a
             >
           </div>
           <div class="flex flex-col">
