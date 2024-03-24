@@ -27,6 +27,10 @@ export default {
       console.log('Notes:', this.notes)
 
       console.log('Form submitted')
+      this.name = ''
+      this.company = ''
+      this.mail = ''
+      this.notes = ''
     },
   },
 }
@@ -37,7 +41,7 @@ export default {
     <div class="bg-[#1b1b1b] w-full flex flex-col h-screen">
       <div class="flex mx-14 px-1 justify-between mt-14 pt-1">
         <div class="flex bg-white rounded-full py-2 px-4 gap-6 text-sm text-gray-500">
-          <a class="text-violet-600" href="">Home</a>
+          <a href="/">Home</a>
           <a href="https://drp.riscapta.com/">DRP</a>
           <a href="">Blog</a>
         </div>
@@ -45,16 +49,7 @@ export default {
           <img class="h-7" src="/src/assets/riscapta.png" alt="logo" />
           <a class="text-4xl font-ibm font-medium text-white">Riscapta</a>
         </RouterLink>
-        <div class="flex gap-3 items-center bg-white rounded-full px-4 py-2 font-medium cursor-pointer">
-          <a class="text-black">Contact Us</a>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-            <path
-              class="stroke-black stroke-1"
-              fill-rule="evenodd"
-              d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
-            />
-          </svg>
-        </div>
+        <div class="w-36"></div>
       </div>
       <!-- HEADER END -->
       <div class="h-2/3 mx-14 px-1 my-10 grid grid-cols-3">
@@ -65,7 +60,10 @@ export default {
           </div>
           <div class="bg-[#D7CBFE] rounded-bl-3xl h-full flex flex-col pl-10">
             <a class="text-9xl font-bold font-ibm">Let's Talk</a>
-            <a class="pt-10">Welcome to the new...</a>
+            <a class="pt-10"
+              >As experts in thread intelligence and digital risk protection for banks, we're here to strengthen your cybersecurity. Reach out to discuss how we can safeguard your
+              institution from evolving threats.</a
+            >
           </div>
         </div>
         <div class="flex flex-col col-span-2">
@@ -119,7 +117,7 @@ export default {
     <div class="ml-1 flex flex-col text-white gap-4">
       <a class="text-xl">Contact us :</a>
       <a class="text-sm">hello@riscapta.com</a>
-      <a class="text-xl mt-4">Connect with us:</a>
+      <!-- <a class="text-xl mt-4">Connect with us:</a>
       <a class="text-sm">Follow us ... </a>
       <div class="mt-2 sm:flex sm:items-center sm:justify-between">
         <div class="flex mt-4 sm:justify-center sm:mt-0 gap-4">
@@ -168,7 +166,8 @@ export default {
             <span class="sr-only">Dribbble account</span>
           </a>
         </div>
-      </div>
+      </div> -->
+      <div class="h-20"></div>
     </div>
   </div>
 
