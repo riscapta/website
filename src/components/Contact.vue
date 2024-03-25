@@ -38,9 +38,9 @@ export default {
 
 <template>
   <div class="flex flex-col bg-[#1b1b1b]">
-    <body class="w-screen h-screen items-center flex justify-center sm:pb-[600px] mb-[700px]">
-      <div class="w-full pt-5 flex flex-col h-screen px-5 sm:px-0 sm:pt-0">
-        <div class="flex sm:mx-5 mx-3 mt-5 justify-between items-center">
+    <body class="w-screen h-screen items-center flex justify-center sm:mb-[400px] mb-[700px]">
+      <div class="w-full pt-5 flex flex-col h-screen px-5 sm:px-0">
+        <div class="flex sm:mx-5 mx-3 mt-5 justify-between items-center sm:px-10">
           <div class="flex bg-white rounded-full sm:py-2 py-1 sm:px-4 sm:gap-6 gap-1 px-2 items-center text-xs sm:text-sm text-gray-500">
             <a class="text-violet-600" href="">Home</a>
             <a href="https://drp.riscapta.com/">DRP</a>
