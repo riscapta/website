@@ -62,8 +62,8 @@ export default {
             <div class="bg-[#D7CBFE] rounded-bl-3xl h-full flex flex-col sm:pl-10 px-5">
               <a class="text-9xl font-bold font-ibm">Let's Talk</a>
               <a class="sm:pt-10 py-5"
-                >As experts in thread intelligence and digital risk protection for banks, we're here to strengthen your cybersecurity. Reach out to discuss how we can safeguard
-                your institution from evolving threats.</a
+                >As threat intelligence and digital risk protection experts, we're here to strengthen your cybersecurity. Reach out to discuss how we can safeguard
+                your company from evolving threats.</a
               >
             </div>
           </div>
