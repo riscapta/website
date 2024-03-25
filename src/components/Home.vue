@@ -9,7 +9,7 @@ import { RouterLink } from 'vue-router'
       <div
         class="relative h-screen bg-cover bg-[url('/src/assets/back.jpg')] sm:mt-10 mt-5 mx-5 rounded-lg sm:mx-10 sm:rounded-3xl before:absolute before:left-0 before:bottom-80 before:w-10 before:h-10 before:rounded-full before:shadow-[-20px_20px_0_0] before:shadow-[#1b1b1b]"
       >
-        <div class="flex sm:mx-5 mx-3 mt-5 justify-between items-center">
+        <div class="flex sm:mx-5 mx-3 mt-5 justify-between items-center ">
           <div class="flex bg-white rounded-full sm:py-2 py-1 sm:px-4 sm:gap-6 gap-1 px-2 items-center text-xs sm:text-sm text-gray-500">
             <a class="text-violet-600" href="">Home</a>
             <a href="https://drp.riscapta.com/">DRP</a>
@@ -91,14 +91,14 @@ import { RouterLink } from 'vue-router'
         <span
           class="absolute h-24 sm:h-28 -left-10 sm:-left-0 bg-[#1b1b1b] w-2/3 sm:w-1/3 -top-40 sm:-top-56 rounded-tr-xl before:absolute before:-right-10 before:bottom-0 before:w-10 before:h-10 before:rounded-full before:shadow-[-20px_20px_0_0] before:shadow-[#1b1b1b]"
         >
-          <div class="text-white h-full pl-5 text-4xl font-bold sm:pl-0 items-center flex sm:text-4xl md:text-5xl lg:text-7xl xl:text-7xl 2xl:text-8xl sm:font-medium">
+          <div class="text-white h-full pl-5 text-4xl font-semibold sm:pl-0 items-center flex sm:text-4xl md:text-5xl lg:text-7xl xl:text-7xl 2xl:text-8xl sm:font-medium">
             <a>Enhancing</a>
           </div>
         </span>
         <span
           class="absolute h-24 sm:h-28 -left-10 sm:-left-0 bg-[#1b1b1b] w-11/12 sm:w-7/12 -top-20 sm:-top-28 rounded-tr-xl before:absolute before:-right-10 before:bottom-0 before:w-10 before:h-10 before:rounded-full before:shadow-[-20px_20px_0_0] before:shadow-[#]"
         >
-          <div class="text-white h-full pl-5 text-4xl sm:pl-0 font-bold items-center flex sm:text-4xl md:text-5xl lg:text-7xl xl:text-7xl 2xl:text-8xl sm:font-medium">
+          <div class="text-white h-full pl-5 text-4xl sm:pl-0 font-semibold items-center flex sm:text-4xl md:text-5xl lg:text-7xl xl:text-7xl 2xl:text-8xl sm:font-medium">
             <a>Threat Intelligence</a>
           </div>
         </span>
